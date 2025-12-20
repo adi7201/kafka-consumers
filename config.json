@@ -1,0 +1,38 @@
+{
+    "postgres": {
+        "dbname": "rhenus",
+        "user": "postgres",
+        "password": "rhenus",
+        "host": "localhost"
+    },
+    "dynomodb": {
+        "aws_access_key_id": "AKIARV7SFTMJJL2HYXZU",
+        "aws_secret_access_key": "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",
+        "region_name": "ap-south-1"
+    },
+    
+    "customer_emails": {
+        "Covestro": ["Rakesh.Mhatre@rhenus.com"],
+        "Sabic": ["pankaj.ghardale@rhenus.com"],
+        "OUTOKOMPU": ["Rakesh.Mhatre@rhenus.com"],
+        "Evonik": ["muf6.operations2@rhenus.com","muf6.operations1@rhenus.com"],
+        "Evonik (A_c)": ["muf6.operations2@rhenus.com","muf6.operations1@rhenus.com"],
+        "Wacker Chemie": ["datta.phatak@rhenus.com"],
+        "Wacker Metroark": ["datta.phatak@rhenus.com"],
+        "MICHELMAN": ["michelman.Operations@in.rhenus.com"],
+        "OMETA": ["muf6.operations3@rhenus.com"],
+        "Donaldson": ["pranay.gawde@rhenus.com"],
+        "Delrin": ["rajaram.rajpure@rhenus.com"],
+        "Brenntag": ["dnyaneshwar.zanjad@rhenus.com"],
+        "Arch Chem": ["pavan.mahtole@rhenus.com"],
+        "Palsgaard": ["ambadas.shivsharan@rhenus.com"],
+        "Troy Chem": ["ambadas.shivsharan@rhenus.com"],
+	"Dupont(DPT)": ["intaj.ali@rhenus.com"],
+	"Dupont(E_i)": ["bhalchandra.dhavan@rhenus.com"],
+	"Dupont(Kalrez/ekc-advance": ["rahul.choudhari@rhenus.com"],
+	"MotoCare":["sanjay.thalke@rhenus.com"]
+       
+    },
+    "aisensy": {
+        "api_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZjdmMDg4ZjZkOTg1NGYzYjM2NzBhMiIsIm5hbWUiOiJBSTRNIFRlY2hub2xvZ3kgUHZ0IEx0ZCIsImFwcE5hbWUiOiJBaVNlbnN5IiwiY2xpZW50SWQiOiI2NWY3ZjA4OGY2ZDk4NTRmM2IzNjcwOWQiLCJhY3RpdmVQbGFuIjoiQkFTSUNfTU9OVEhMWSIsImlhdCI6MTcxMDc0Nzc4NH0.DE6RRxAxjNJ75D0tuaM_3r42lkEFwNzSQ_E_hkb5KYc"}
+}

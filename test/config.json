@@ -1,0 +1,15 @@
+{
+    "postgres": {
+        "dbname": "rhenus",
+        "user": "postgres",
+        "password": "ai4m2024",
+        "host": "localhost"
+    },
+    "dynomodb": {
+        "aws_access_key_id": "AKIARV7SFTMJJL2HYXZU",
+        "aws_secret_access_key": "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",
+        "region_name": "ap-south-1"
+    },
+    "aisensy": {
+        "api_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZjdmMDg4ZjZkOTg1NGYzYjM2NzBhMiIsIm5hbWUiOiJBSTRNIFRlY2hub2xvZ3kgUHZ0IEx0ZCIsImFwcE5hbWUiOiJBaVNlbnN5IiwiY2xpZW50SWQiOiI2NWY3ZjA4OGY2ZDk4NTRmM2IzNjcwOWQiLCJhY3RpdmVQbGFuIjoiQkFTSUNfTU9OVEhMWSIsImlhdCI6MTcxMDc0Nzc4NH0.DE6RRxAxjNJ75D0tuaM_3r42lkEFwNzSQ_E_hkb5KYc"}
+}

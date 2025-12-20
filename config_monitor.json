@@ -1,0 +1,59 @@
+{
+  "AIC_ID": "4CE425CG6N",
+  "AIC_NAME": "Rhenus-k_Square-Bhiwandi",
+  "PROJECT": "Rhenus Warehouse",
+  "SYSTEM": {
+    "IP": "192.168.0.61",
+    "NAME": "Rhel9_Server"
+  },
+  "PEER_IPS": {},
+  "CAMERA_IPS": {
+    "192.168.2.220": "Gate_In",
+    "192.168.2.15": "Gate_Out",
+    "192.168.2.43": "Dock1",
+    "192.168.2.44": "Dock2",
+    "192.168.2.45": "Dock3",
+    "192.168.2.46": "Dock4",
+    "192.168.2.47": "Dock5",
+    "192.168.2.48": "Dock6",
+    "192.168.2.49": "Dock7",
+    "192.168.2.50": "Dock8",
+    "192.168.2.51": "Dock9",
+    "192.168.2.52": "Dock10",
+    "192.168.2.53": "Dock11",
+    "192.168.2.54": "Dock12",
+    "192.168.2.55": "Dock13",
+    "192.168.2.56": "Dock14",
+    "192.168.2.57": "Dock15",
+    "192.168.2.58": "Dock16",
+    "192.168.2.59": "Dock17",
+    "192.168.2.60": "Dock18",
+    "192.168.2.61": "Dock19",
+    "192.168.2.62": "Dock20"
+    
+  },
+  "EMAIL": {
+    "SENDER": "support@ai4mtech.com",
+    "PASSWORD": "auuytspaaeyswktl",
+    "RECEIVERS": ["aditi@ai4mtech.com","pranita@ai4mtech.com","bahar@ai4mtech.com"]
+  },
+  "SERVICES": ["ai4m-rhenus-app", "ai4m-dock1-app", "postgres", "kafka", "tritonserver"],
+  "PYTHON_FILES": [
+    "upload_image_to_s3.py",
+    "dock_consumer.py",
+    "gate_testing_consumer.py",
+    "postgres_to_dynamodb.py",
+    "tab_ocr_to_dynamodb.py",
+    "truck_image_upload_s3.py",
+   
+    "dock_transaction_test.py",
+    "dock_cycle.py",
+    "ffmpeg_camera_capture.py",
+    "insert_dock_assign_cycle_log.py",
+    "inbound_test.py",
+    "outbound_test.py",
+    "dock_bucketing.py",
+    "vehicle_number_mail_sent.py",
+    "tab-image-ocr.py"
+  ]
+}
